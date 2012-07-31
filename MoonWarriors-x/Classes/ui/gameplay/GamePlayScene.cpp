@@ -23,7 +23,10 @@ bool GamePlayScene::init()
     do {
         CC_BREAK_IF(!CCScene::init());
         
+        // 背景层
         this->addChild(GamePlayBGLayer::node(), 0);
+        // 游戏层
+        this->addChild(GamePlayLayer::node(), 1);
         
         ret = true;
     } while (0);

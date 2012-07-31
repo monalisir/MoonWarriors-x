@@ -97,6 +97,7 @@ void GamePlayBGLayer::scrollingToInfinity(CCNode *pBGLayer)
             break;
             
         default:
+            CCAssert(0, "错误的游戏场景ID");
             break;
     }
     

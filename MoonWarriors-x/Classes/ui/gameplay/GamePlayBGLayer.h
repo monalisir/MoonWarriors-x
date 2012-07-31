@@ -15,8 +15,11 @@ USING_NS_CC;
 
 typedef enum
 {
+    //
     GAMEPLAY_BG_NONE                = -1,
+    // 远景层
     GAMEPLAY_BG_VISION_LAYER        = 0,
+    // 近景层
     GAMEPLAY_BG_CLOSE_RANGE_LAYER   = 1,
 } GAMEPLAY_BG;
 

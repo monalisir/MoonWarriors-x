@@ -11,6 +11,7 @@
 
 #include "cocos2d.h"
 #include "GamePlayBGLayer.h"
+#include "GamePlayLayer.h"
 
 USING_NS_CC;
 

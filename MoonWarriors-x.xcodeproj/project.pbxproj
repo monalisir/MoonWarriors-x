@@ -148,7 +148,6 @@
 		E2F8A5B315C78B2400252F63 /* SettingScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F8A5B015C78B2400252F63 /* SettingScene.cpp */; };
 		E2F8A5B815C78B2D00252F63 /* AboutBGLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F8A5B415C78B2D00252F63 /* AboutBGLayer.cpp */; };
 		E2F8A5B915C78B2D00252F63 /* AboutScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F8A5B615C78B2D00252F63 /* AboutScene.cpp */; };
-		E2F8A5BC15C78B3800252F63 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F8A5BA15C78B3700252F63 /* AppDelegate.cpp */; };
 		E2F8A5C515C78BA100252F63 /* b01.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F8A5BE15C78BA100252F63 /* b01.png */; };
 		E2F8A5C615C78BA100252F63 /* bg01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2F8A5BF15C78BA100252F63 /* bg01.jpg */; };
 		E2F8A5C715C78BA100252F63 /* level01.tmx in Resources */ = {isa = PBXBuildFile; fileRef = E2F8A5C015C78BA100252F63 /* level01.tmx */; };
@@ -156,6 +155,9 @@
 		E2F8A5C915C78BA100252F63 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F8A5C215C78BA100252F63 /* logo.png */; };
 		E2F8A5CA15C78BA100252F63 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F8A5C315C78BA100252F63 /* menu.png */; };
 		E2F8A5CB15C78BA100252F63 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F8A5C415C78BA100252F63 /* ship.png */; };
+		E2F8A5D615C7AFEF00252F63 /* GamePlayLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F8A5D415C7AFEE00252F63 /* GamePlayLayer.cpp */; };
+		E2F8A5E515C7BF2500252F63 /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F8A5E315C7BF2500252F63 /* Ship.cpp */; };
+		E2F8A5EC15C7D34C00252F63 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2F8A5EA15C7D34B00252F63 /* AppDelegate.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -453,8 +455,6 @@
 		E2F8A5B515C78B2D00252F63 /* AboutBGLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutBGLayer.h; path = Classes/ui/about/AboutBGLayer.h; sourceTree = "<group>"; };
 		E2F8A5B615C78B2D00252F63 /* AboutScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AboutScene.cpp; path = Classes/ui/about/AboutScene.cpp; sourceTree = "<group>"; };
 		E2F8A5B715C78B2D00252F63 /* AboutScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutScene.h; path = Classes/ui/about/AboutScene.h; sourceTree = "<group>"; };
-		E2F8A5BA15C78B3700252F63 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/ui/AppDelegate.cpp; sourceTree = "<group>"; };
-		E2F8A5BB15C78B3700252F63 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/ui/AppDelegate.h; sourceTree = "<group>"; };
 		E2F8A5BD15C78B5E00252F63 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Classes/constants/Constants.h; sourceTree = "<group>"; };
 		E2F8A5BE15C78BA100252F63 /* b01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = b01.png; path = Resources/b01.png; sourceTree = "<group>"; };
 		E2F8A5BF15C78BA100252F63 /* bg01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg01.jpg; path = Resources/bg01.jpg; sourceTree = "<group>"; };
@@ -463,6 +463,13 @@
 		E2F8A5C215C78BA100252F63 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Resources/logo.png; sourceTree = "<group>"; };
 		E2F8A5C315C78BA100252F63 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = Resources/menu.png; sourceTree = "<group>"; };
 		E2F8A5C415C78BA100252F63 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ship.png; path = Resources/ship.png; sourceTree = "<group>"; };
+		E2F8A5D415C7AFEE00252F63 /* GamePlayLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GamePlayLayer.cpp; path = Classes/ui/gameplay/GamePlayLayer.cpp; sourceTree = "<group>"; };
+		E2F8A5D515C7AFEE00252F63 /* GamePlayLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePlayLayer.h; path = Classes/ui/gameplay/GamePlayLayer.h; sourceTree = "<group>"; };
+		E2F8A5E215C7BF2500252F63 /* AbstractGameCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractGameCharacter.h; path = Classes/sprite/AbstractGameCharacter.h; sourceTree = "<group>"; };
+		E2F8A5E315C7BF2500252F63 /* Ship.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Ship.cpp; path = Classes/sprite/Ship.cpp; sourceTree = "<group>"; };
+		E2F8A5E415C7BF2500252F63 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ship.h; path = Classes/sprite/Ship.h; sourceTree = "<group>"; };
+		E2F8A5EA15C7D34B00252F63 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
+		E2F8A5EB15C7D34C00252F63 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1063,8 +1070,9 @@
 		E2F8A54915C65A0B00252F63 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E2F8A5BA15C78B3700252F63 /* AppDelegate.cpp */,
-				E2F8A5BB15C78B3700252F63 /* AppDelegate.h */,
+				E2F8A5EB15C7D34C00252F63 /* AppDelegate.h */,
+				E2F8A5EA15C7D34B00252F63 /* AppDelegate.cpp */,
+				E2F8A5DB15C7B3A400252F63 /* sprite */,
 				E2F8A57415C67AEE00252F63 /* manager */,
 				E2F8A55715C65B7B00252F63 /* ui */,
 				E2F8A55515C65A4B00252F63 /* constants */,
@@ -1094,12 +1102,12 @@
 		E2F8A55815C65BD600252F63 /* mainmenu */ = {
 			isa = PBXGroup;
 			children = (
-				E2F8A59F15C78B0E00252F63 /* MainMenuBGLayer.cpp */,
 				E2F8A5A015C78B0E00252F63 /* MainMenuBGLayer.h */,
-				E2F8A5A115C78B0E00252F63 /* MainMenuCtrlLayer.cpp */,
+				E2F8A59F15C78B0E00252F63 /* MainMenuBGLayer.cpp */,
 				E2F8A5A215C78B0E00252F63 /* MainMenuCtrlLayer.h */,
-				E2F8A5A315C78B0E00252F63 /* MainMenuScene.cpp */,
+				E2F8A5A115C78B0E00252F63 /* MainMenuCtrlLayer.cpp */,
 				E2F8A5A415C78B0E00252F63 /* MainMenuScene.h */,
+				E2F8A5A315C78B0E00252F63 /* MainMenuScene.cpp */,
 			);
 			name = mainmenu;
 			sourceTree = "<group>";
@@ -1107,10 +1115,12 @@
 		E2F8A55915C65BDE00252F63 /* gameplay */ = {
 			isa = PBXGroup;
 			children = (
-				E2F8A5A815C78B1900252F63 /* GamePlayBGLayer.cpp */,
+				E2F8A5D515C7AFEE00252F63 /* GamePlayLayer.h */,
+				E2F8A5D415C7AFEE00252F63 /* GamePlayLayer.cpp */,
 				E2F8A5A915C78B1900252F63 /* GamePlayBGLayer.h */,
-				E2F8A5AA15C78B1900252F63 /* GamePlayScene.cpp */,
+				E2F8A5A815C78B1900252F63 /* GamePlayBGLayer.cpp */,
 				E2F8A5AB15C78B1900252F63 /* GamePlayScene.h */,
+				E2F8A5AA15C78B1900252F63 /* GamePlayScene.cpp */,
 			);
 			name = gameplay;
 			sourceTree = "<group>";
@@ -1118,8 +1128,8 @@
 		E2F8A57415C67AEE00252F63 /* manager */ = {
 			isa = PBXGroup;
 			children = (
-				E2F8A59C15C78AC700252F63 /* GameManager.cpp */,
 				E2F8A59D15C78AC700252F63 /* GameManager.h */,
+				E2F8A59C15C78AC700252F63 /* GameManager.cpp */,
 			);
 			name = manager;
 			sourceTree = "<group>";
@@ -1127,10 +1137,10 @@
 		E2F8A57C15C6847700252F63 /* setting */ = {
 			isa = PBXGroup;
 			children = (
-				E2F8A5AE15C78B2400252F63 /* SettingBGLayer.cpp */,
 				E2F8A5AF15C78B2400252F63 /* SettingBGLayer.h */,
-				E2F8A5B015C78B2400252F63 /* SettingScene.cpp */,
+				E2F8A5AE15C78B2400252F63 /* SettingBGLayer.cpp */,
 				E2F8A5B115C78B2400252F63 /* SettingScene.h */,
+				E2F8A5B015C78B2400252F63 /* SettingScene.cpp */,
 			);
 			name = setting;
 			sourceTree = "<group>";
@@ -1138,12 +1148,22 @@
 		E2F8A57D15C6848200252F63 /* about */ = {
 			isa = PBXGroup;
 			children = (
-				E2F8A5B415C78B2D00252F63 /* AboutBGLayer.cpp */,
 				E2F8A5B515C78B2D00252F63 /* AboutBGLayer.h */,
-				E2F8A5B615C78B2D00252F63 /* AboutScene.cpp */,
+				E2F8A5B415C78B2D00252F63 /* AboutBGLayer.cpp */,
 				E2F8A5B715C78B2D00252F63 /* AboutScene.h */,
+				E2F8A5B615C78B2D00252F63 /* AboutScene.cpp */,
 			);
 			name = about;
+			sourceTree = "<group>";
+		};
+		E2F8A5DB15C7B3A400252F63 /* sprite */ = {
+			isa = PBXGroup;
+			children = (
+				E2F8A5E215C7BF2500252F63 /* AbstractGameCharacter.h */,
+				E2F8A5E415C7BF2500252F63 /* Ship.h */,
+				E2F8A5E315C7BF2500252F63 /* Ship.cpp */,
+			);
+			name = sprite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1346,7 +1366,9 @@
 				E2F8A5B315C78B2400252F63 /* SettingScene.cpp in Sources */,
 				E2F8A5B815C78B2D00252F63 /* AboutBGLayer.cpp in Sources */,
 				E2F8A5B915C78B2D00252F63 /* AboutScene.cpp in Sources */,
-				E2F8A5BC15C78B3800252F63 /* AppDelegate.cpp in Sources */,
+				E2F8A5D615C7AFEF00252F63 /* GamePlayLayer.cpp in Sources */,
+				E2F8A5E515C7BF2500252F63 /* Ship.cpp in Sources */,
+				E2F8A5EC15C7D34C00252F63 /* AppDelegate.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
