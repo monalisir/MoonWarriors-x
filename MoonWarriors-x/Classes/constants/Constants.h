@@ -39,4 +39,30 @@ typedef enum
     CHARACTER_STATE_DYING       = 3
 } CHARACTER_STATE;
 
+// 子弹状态
+typedef enum
+{
+    //
+    BULLET_STATE_NONE       = -1,
+    // 初始状态
+    BULLET_STATE_SPAWNING   = 0,
+    // 正常状态
+    BULLET_STATE_NORMAL     = 1,
+    // 攻击状态
+    BULLET_STATE_ATTACKING  = 2,
+    // 结束状态
+    BULLET_STATE_OVER       = 3
+} BULLET_STATE;
+
+// 子弹标签
+typedef enum
+{
+    // 
+    BULLET_TAG_NONE     = -1,
+    // 玩家子弹
+    BULLET_TAG_PLAYER   = 0,
+    // 敌人子弹
+    BULLET_TAG_ENEMY    = 1
+} BULLET_TAG;
+
 #endif

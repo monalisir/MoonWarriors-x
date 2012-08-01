@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2CF4ED315C8D96E00C9C743 /* bullet.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2CF4ED115C8D96E00C9C743 /* bullet.plist */; };
+		E2CF4ED415C8D96E00C9C743 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = E2CF4ED215C8D96E00C9C743 /* bullet.png */; };
+		E2CF4EE315C913FA00C9C743 /* BulletCacheManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2CF4EE115C913FA00C9C743 /* BulletCacheManager.cpp */; };
+		E2CF4EE915C9288500C9C743 /* Bullet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2CF4EE715C9288200C9C743 /* Bullet.cpp */; };
+		E2CF4EEC15C928B800C9C743 /* PauseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2CF4EEA15C928B800C9C743 /* PauseLayer.cpp */; };
 		E2F8A39415C65A0800252F63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F8A39315C65A0800252F63 /* QuartzCore.framework */; };
 		E2F8A39615C65A0800252F63 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F8A39515C65A0800252F63 /* OpenGLES.framework */; };
 		E2F8A39815C65A0800252F63 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F8A39715C65A0800252F63 /* OpenAL.framework */; };
@@ -161,6 +166,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2CF4ED115C8D96E00C9C743 /* bullet.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = bullet.plist; path = Resources/bullet.plist; sourceTree = "<group>"; };
+		E2CF4ED215C8D96E00C9C743 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bullet.png; path = Resources/bullet.png; sourceTree = "<group>"; };
+		E2CF4EE115C913FA00C9C743 /* BulletCacheManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BulletCacheManager.cpp; path = Classes/manager/cache/BulletCacheManager.cpp; sourceTree = "<group>"; };
+		E2CF4EE215C913FA00C9C743 /* BulletCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BulletCacheManager.h; path = Classes/manager/cache/BulletCacheManager.h; sourceTree = "<group>"; };
+		E2CF4EE715C9288200C9C743 /* Bullet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Bullet.cpp; path = Classes/sprite/Bullet.cpp; sourceTree = "<group>"; };
+		E2CF4EE815C9288300C9C743 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bullet.h; path = Classes/sprite/Bullet.h; sourceTree = "<group>"; };
+		E2CF4EEA15C928B800C9C743 /* PauseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PauseLayer.cpp; path = Classes/ui/PauseLayer.cpp; sourceTree = "<group>"; };
+		E2CF4EEB15C928B800C9C743 /* PauseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PauseLayer.h; path = Classes/ui/PauseLayer.h; sourceTree = "<group>"; };
 		E2F8A38F15C65A0800252F63 /* MoonWarriors-x.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MoonWarriors-x.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F8A39315C65A0800252F63 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		E2F8A39515C65A0800252F63 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -491,6 +504,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2CF4EE015C913E900C9C743 /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				E2CF4EE215C913FA00C9C743 /* BulletCacheManager.h */,
+				E2CF4EE115C913FA00C9C743 /* BulletCacheManager.cpp */,
+			);
+			name = cache;
+			sourceTree = "<group>";
+		};
 		E2F8A38415C65A0800252F63 = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +560,8 @@
 		E2F8A3A415C65A0800252F63 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E2CF4ED115C8D96E00C9C743 /* bullet.plist */,
+				E2CF4ED215C8D96E00C9C743 /* bullet.png */,
 				E2F8A5BE15C78BA100252F63 /* b01.png */,
 				E2F8A5BF15C78BA100252F63 /* bg01.jpg */,
 				E2F8A5C015C78BA100252F63 /* level01.tmx */,
@@ -1091,6 +1115,8 @@
 		E2F8A55715C65B7B00252F63 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				E2CF4EEB15C928B800C9C743 /* PauseLayer.h */,
+				E2CF4EEA15C928B800C9C743 /* PauseLayer.cpp */,
 				E2F8A55815C65BD600252F63 /* mainmenu */,
 				E2F8A55915C65BDE00252F63 /* gameplay */,
 				E2F8A57C15C6847700252F63 /* setting */,
@@ -1128,6 +1154,7 @@
 		E2F8A57415C67AEE00252F63 /* manager */ = {
 			isa = PBXGroup;
 			children = (
+				E2CF4EE015C913E900C9C743 /* cache */,
 				E2F8A59D15C78AC700252F63 /* GameManager.h */,
 				E2F8A59C15C78AC700252F63 /* GameManager.cpp */,
 			);
@@ -1159,6 +1186,8 @@
 		E2F8A5DB15C7B3A400252F63 /* sprite */ = {
 			isa = PBXGroup;
 			children = (
+				E2CF4EE715C9288200C9C743 /* Bullet.cpp */,
+				E2CF4EE815C9288300C9C743 /* Bullet.h */,
 				E2F8A5E215C7BF2500252F63 /* AbstractGameCharacter.h */,
 				E2F8A5E415C7BF2500252F63 /* Ship.h */,
 				E2F8A5E315C7BF2500252F63 /* Ship.cpp */,
@@ -1234,6 +1263,8 @@
 				E2F8A5C915C78BA100252F63 /* logo.png in Resources */,
 				E2F8A5CA15C78BA100252F63 /* menu.png in Resources */,
 				E2F8A5CB15C78BA100252F63 /* ship.png in Resources */,
+				E2CF4ED315C8D96E00C9C743 /* bullet.plist in Resources */,
+				E2CF4ED415C8D96E00C9C743 /* bullet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1369,6 +1400,9 @@
 				E2F8A5D615C7AFEF00252F63 /* GamePlayLayer.cpp in Sources */,
 				E2F8A5E515C7BF2500252F63 /* Ship.cpp in Sources */,
 				E2F8A5EC15C7D34C00252F63 /* AppDelegate.cpp in Sources */,
+				E2CF4EE315C913FA00C9C743 /* BulletCacheManager.cpp in Sources */,
+				E2CF4EE915C9288500C9C743 /* Bullet.cpp in Sources */,
+				E2CF4EEC15C928B800C9C743 /* PauseLayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1482,6 +1516,7 @@
 				E2F8A55415C65A0B00252F63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

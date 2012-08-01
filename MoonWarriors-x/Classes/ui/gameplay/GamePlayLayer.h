@@ -11,6 +11,10 @@
 
 #include "cocos2d.h"
 #include "Ship.h"
+#include "Bullet.h"
+#include "Constants.h"
+#include "BulletCacheManager.h"
+#include "PauseLayer.h"
 
 USING_NS_CC;
 
@@ -34,6 +38,9 @@ public:
     virtual void ccTouchMoved(CCTouch *pTouch, CCEvent *pEvent);
     virtual void ccTouchEnded(CCTouch *pTouch, CCEvent *pEvent);
     virtual void ccTouchCancelled(CCTouch *pTouch, CCEvent *pEvent);
+    
+public:
+    void update(ccTime dt);
     
 private:
     // 精灵可以移动的屏幕区域
